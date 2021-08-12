@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  border: none;
+  background-color: inherit;
+}
+
+.nav-link:disabled {
+  opacity: 0.3;
+}
+
+.normal-text {
+  font-weight: normal;
+  margin: 0;
+}
+
+.bi.bi-arrow-right {
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.bi.bi-arrow-right:hover {
+  color: var(--bs-primary);
+  transform: scale(1.2);
+}

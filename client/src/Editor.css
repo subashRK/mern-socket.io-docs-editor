@@ -1,0 +1,45 @@
+.ql-toolbar {
+  border: none !important;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0%;
+  background-color: whitesmoke;
+  padding: 13px !important;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ql-toolbar .ql-picker-options {
+  border: none !important;
+}
+
+#editor.ql-container {
+  border: none !important;
+  margin: 30px 0px;
+}
+
+#editor.ql-container .ql-editor {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  height: 842px;
+  width: 695px;
+  max-width: 90%;
+  padding: 25px;
+}
+
+#editor.ql-container .ql-editor::-webkit-scrollbar {
+  background-color: transparent;
+  max-width: 10px;
+}
+
+#editor.ql-container .ql-editor::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: none;
+}
+
+#editor.ql-container .ql-editor::-webkit-scrollbar-thumb {
+  background-color: #f0f0f0;
+  border-radius: 2px;
+}
